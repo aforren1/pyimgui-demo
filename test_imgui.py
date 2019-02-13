@@ -5,9 +5,9 @@ from pyglet_imgui_renderer import PygletRenderer
 
 win = visual.Window(fullscr=True)
 
-cir = visual.Circle(win, fillColor='red', radius=(0.2, 0.3))
-#rad = visual.RadialStim(win, size=(0.2, 0.2))
-#txt = visual.TextStim(win, text='foo', pos=(0, 0.3))
+# cir = visual.Circle(win, fillColor='red', radius=(0.2, 0.3))
+# rad = visual.RadialStim(win, size=(0.2, 0.2))
+# txt = visual.TextStim(win, text='foo', pos=(0, 0.3))
 impl = PygletRenderer(win.backend.winHandle)
 text_val = 'Write ID Here.'
 dlg_width, dlg_height = 400, 150
@@ -30,7 +30,7 @@ while not event.getKeys(['escape']):
     if imgui.button('Exit'):
         core.quit()
     imgui.end()
-    cir.draw()
+    # cir.draw()
     # rad.draw()
     imgui.render()
     impl.render(imgui.get_draw_data())
