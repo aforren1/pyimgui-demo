@@ -1,5 +1,5 @@
 
-Install pyimgui with `pip install imgui==1.0.0a2`.
+Install pyimgui with `pip install imgui==1.0.0a2` (repo is https://github.com/swistakm/pyimgui).
 
 Run the example with `python test_imgui.py`.
 

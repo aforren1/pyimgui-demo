@@ -1,4 +1,5 @@
-
+# derived from https://github.com/swistakm/pyimgui/blob/master/imgui/integrations/cocos2d.py
+# and https://github.com/swistakm/pyimgui/blob/master/imgui/integrations/glfw.py
 import imgui
 from imgui.integrations.opengl import FixedPipelineRenderer
 from pyglet.window import mouse
